@@ -6,15 +6,6 @@
  */
 
 /**
- * Implements hook_ctools_plugin_directory().
- */
-function restful_user_registration_ctools_plugin_directory($owner, $plugin_type) {
-  if ($owner == 'restful' && $plugin_type == 'restful') {
-    return 'plugins/' . $plugin_type;
-  }
-}
-
-/**
  * Implements hook_permission().
  */
 function restful_user_registration_permission() {
