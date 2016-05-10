@@ -1,0 +1,9 @@
+name = RESTful v2 user registration
+description = Define user registration RESTful v2 resources.
+php = 5.3
+core = 7.x
+package = Web Service
+dependencies[] = restful (2.x)
+
+registry_autoload[] = PSR-0
+registry_autoload[] = PSR-4
