@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * The core implementation for the RESTful user registration module.
+ */
+
+/**
+ * Implements hook_permission().
+ */
+function restful_user_registration_permission() {
+  return [
+    'allowed to register user account' => [
+      'title' => t('Allowed to register user account'),
+    ],
+    'allowed to update user account' => [
+      'title' => t('Allowed to update user account')
+    ],
+  ];
+}
